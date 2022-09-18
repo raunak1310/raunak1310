@@ -1,0 +1,9 @@
+pw, valid = input(), False  # initialize valid to False
+# first condition is being checked here
+if 8 <= len(pw) <= 32:
+    # second condition is being checked here
+    if 'a' <= pw[0] <= 'z' or 'A' <= pw[0] <= 'Z':
+        # third and four conditions are being checked here
+        if not('/' in pw or '\\' in pw or '=' in pw or "'" in pw or '"' in pw or ' ' in pw):
+            valid = True
+print(valid)
