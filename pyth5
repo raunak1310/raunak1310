@@ -1,0 +1,23 @@
+nam1=input()
+dob1=input()
+nam2=input()
+dob2=input()
+if(int(dob1[6:])>int(dob2[6:])):
+  print(nam1)
+if(int(dob1[6:])<int(dob2[6:])):
+  print(nam2)
+if(int(dob1[6:])==int(dob2[6:])):
+  if(int(dob1[3:5])>int(dob2[3:5])):
+    print(nam1)
+  elif(int(dob1[3:5])<int(dob2[3:5])):
+    print(nam2)
+  else:
+    if(int(dob1[0:2])>int(dob2[0:2])):
+      print(nam1)
+    elif(int(dob1[0:2])<int(dob2[0:2])):
+      print(nam2)
+    else:
+      if(nam1>nam2):
+        print(nam2)
+      else:
+        print(nam1)
