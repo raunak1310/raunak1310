@@ -1,0 +1,16 @@
+st=input().lower()
+vowels=""
+if "a" in st:
+  vowels+="a"
+if "e" in st:
+  vowels+="e"
+if "i" in st:
+  vowels+="i"
+if "o" in st:
+  vowels+="o"
+if "u" in st:
+  vowels+="u"
+if vowels!="":
+  print(vowels)
+else:
+  print('None')
