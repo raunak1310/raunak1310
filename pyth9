@@ -1,0 +1,15 @@
+x=float(input())
+if(x>0):
+  floor=int(x)
+  if(floor==x):
+    ceil=floor
+  else:
+    ceil=floor+1
+if(x<0):
+  ceil=int(x)
+  if(ceil==x):
+    floor=ceil
+  else:
+    floor=ceil-1
+print(floor)
+print(ceil)
