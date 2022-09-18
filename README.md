@@ -2,7 +2,7 @@
 - 👀 I’m interested in Coding Statistics Mathematics ML Ai
 - 🌱 I’m currently learning Above topics
 - 💞️ I’m looking to collaborate on Analysis
-- 📫 How to reach me srivastava.raunak13@gmai.com
+- 📫 How to reach me srivastava.raunak13@gmail.com
 
 <!---
 raunak1310/raunak1310 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
