@@ -1,0 +1,11 @@
+n=int(input())
+a=int(input())
+b=int(input())
+c=int(input())
+flag=False
+if(a!=0and b!=0 and c!=0 and a!=b and b!=c and c!=a and a+b+c==n):
+  flag=True
+if(flag):
+  print("Fair")
+else:
+  print("Not Fair")
