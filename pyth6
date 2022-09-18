@@ -1,0 +1,15 @@
+word1=input()
+word2=input()
+word3=input()
+word4=input()
+word5=input()
+flag=0
+if(word1 in word2):
+  if(word2 in word3):
+    if(word3 in word4):
+      if(word4 in word5):
+        flag=1
+if(flag==1):
+  print("Magical")
+else:
+  print("Non-Magical")
